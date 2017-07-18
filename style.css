@@ -1,0 +1,127 @@
+
+body {
+	line-height: 0;
+}
+
+#header{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#map{
+    height:80vh;
+    width:100vw;
+    margin: 0 auto;
+    border-radius: 5px;
+
+ }
+
+.block {
+    width:4.1vw;
+    height:7vh;
+    display:inline-block;
+    background-size: contain;
+    background-color:rgb(66, 104, 255);
+}
+    
+.sky{
+    background-color:rgb(66, 104, 255);
+}
+.sky.snow{
+    background-color:rgb(173,216,230);
+}
+.grass{
+    background-image: url("./images/grass.png");
+}
+.grass.snow{
+    background-image: url("./images/grassSnow.png");
+}
+.ground{
+    background-image: url("./images/dirt.png");
+}
+.leaf{
+    background-image: url("./images/leaf.png");
+}
+.leaf.snow{
+    background-image: url("./images/leafSnow.png");
+}
+.tree{
+    background-image: url("./images/tree.png");
+}
+.rock{
+    background-image: url("./images/rock.png");
+}
+.rock.snow{
+    background-image: url("./images/rockSnow.png");
+}
+.flower{
+    background-image: url("./images/flower.png");
+    background-color:rgb(66, 104, 255);
+    background-size: cover;
+}
+.flower.snow{
+    background-image: url("./images/flowerSnow.png");
+    background-size: cover;
+}
+.tools{
+    width:5vw;
+    height:10vh;
+    display:inline-block;
+    margin:30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color:#696969;
+    border:3px solid black;
+    border-radius:5px;
+    cursor: pointer;
+}
+.inventory{
+    width:3vw;
+    height:6vh;
+    display:inline-block;
+    margin:30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border:3px solid black;
+    border-radius:5px;
+    background-size: cover;
+    cursor: pointer;
+
+}
+.theme{
+    background-image: url("./images/snowball.png");
+}
+.axe{
+  background-image: url("./images/axe.png");
+}
+.shovel{
+  background-image: url("./images/shovel.png");
+}
+.pickaxe{
+  background-image: url("./images/pickaxe.png");
+}
+.shears{
+  background-image: url("./images/shears.png");
+}
+
+#landingpage{
+    height:100vh;
+    width:100vw;
+    text-align: center;
+    background-image: url("./images/dirt.png");
+    background-repeat: all;
+}
+
+#wrapper{
+    display: none;
+}
+
+#start{
+    font-size: 44px;
+    cursor: pointer;
+}
+
+.snow{
+    background-color:rgb(173,216,230);
+}
